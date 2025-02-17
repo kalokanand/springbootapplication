@@ -10,8 +10,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class SpringbootappicationApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
-		ConfigurableApplicationContext context= SpringApplication.run(SpringbootappicationApplication.class, args);
-		context.close();
+		SpringApplication.run(SpringbootappicationApplication.class, args);
 	}
 
 	@Override
